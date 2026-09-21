@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <AssemblyName>MinGo.ServiceRegistry.Samples.Discovery</AssemblyName>
+    <RootNamespace>MinGo.ServiceRegistry.Samples.Discovery</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MinGo.ServiceRegistry.Client\MinGo.ServiceRegistry.Client.csproj" />
+    <ProjectReference Include="..\..\src\MinGo.ServiceRegistry.ServiceDiscovery\MinGo.ServiceRegistry.ServiceDiscovery.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>MinGo.ServiceRegistry.AspNetCore</PackageId>
+    <AssemblyName>MinGo.ServiceRegistry.AspNetCore</AssemblyName>
+    <RootNamespace>MinGo.ServiceRegistry.AspNetCore</RootNamespace>
+    <Description>ASP.NET Core host integration for MinGo Service Registry: automatic registration, heartbeat and deregistration.</Description>
+    <IsPackable>true</IsPackable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MinGo.ServiceRegistry.Client\MinGo.ServiceRegistry.Client.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="MinGo.ServiceRegistry.AspNetCore.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project>
+
+  <PropertyGroup>
+    <VersionPrefix>0.1.0</VersionPrefix>
+    <Authors>MinGo</Authors>
+    <Company>MinGo</Company>
+    <Product>MinGo Service Registry SDK</Product>
+    <Copyright>Copyright (c) MinGo</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/mingo/service-registry-sdk</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mingo/service-registry-sdk</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>service-registry;service-discovery;microservices;aspnetcore</PackageTags>
+  </PropertyGroup>
+
+</Project>

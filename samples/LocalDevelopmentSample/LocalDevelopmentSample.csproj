@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <AssemblyName>MinGo.ServiceRegistry.Samples.LocalDevelopment</AssemblyName>
+    <RootNamespace>MinGo.ServiceRegistry.Samples.LocalDevelopment</RootNamespace>
+    <IsPackable>false</IsPackable>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Official configuration/pass-through service discovery; no Registry Server required. -->
+    <PackageReference Include="Microsoft.Extensions.ServiceDiscovery" />
+  </ItemGroup>
+
+</Project>

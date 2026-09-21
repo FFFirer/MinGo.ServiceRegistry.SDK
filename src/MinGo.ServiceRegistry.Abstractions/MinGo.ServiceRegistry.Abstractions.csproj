@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>MinGo.ServiceRegistry.Abstractions</PackageId>
+    <AssemblyName>MinGo.ServiceRegistry.Abstractions</AssemblyName>
+    <RootNamespace>MinGo.ServiceRegistry.Abstractions</RootNamespace>
+    <Description>Core domain model, protocol contracts and client abstractions for MinGo Service Registry.</Description>
+    <IsPackable>true</IsPackable>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
+
+</Project>

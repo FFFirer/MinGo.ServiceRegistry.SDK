@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MinGo.ServiceRegistry.Abstractions/MinGo.ServiceRegistry.Abstractions.csproj" />
+    <Project Path="src/MinGo.ServiceRegistry.AspNetCore/MinGo.ServiceRegistry.AspNetCore.csproj" />
+    <Project Path="src/MinGo.ServiceRegistry.Client/MinGo.ServiceRegistry.Client.csproj" />
+    <Project Path="src/MinGo.ServiceRegistry.ServiceDiscovery/MinGo.ServiceRegistry.ServiceDiscovery.csproj" />
+    <Project Path="src/MinGo.ServiceRegistry/MinGo.ServiceRegistry.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MinGo.ServiceRegistry.AspNetCore.Tests/MinGo.ServiceRegistry.AspNetCore.Tests.csproj" />
+    <Project Path="tests/MinGo.ServiceRegistry.Client.Tests/MinGo.ServiceRegistry.Client.Tests.csproj" />
+    <Project Path="tests/MinGo.ServiceRegistry.ServiceDiscovery.Tests/MinGo.ServiceRegistry.ServiceDiscovery.Tests.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/RegistrationSample/RegistrationSample.csproj" />
+    <Project Path="samples/DiscoverySample/DiscoverySample.csproj" />
+    <Project Path="samples/LocalDevelopmentSample/LocalDevelopmentSample.csproj" />
+  </Folder>
+</Solution>
